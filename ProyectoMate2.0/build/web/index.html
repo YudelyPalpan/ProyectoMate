@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Inicio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilos.css"> 
+        <link rel="icon" type="image/png" href="imagenes/icono.png" />
+
+    </head>
+
+    <body>
+        <header>
+            <figure class="logo">
+                <img src="imagenes/sm.png" height="100"/>
+            </figure>
+            <div class='tituloPrincipal'>
+                <h1>Sistema de actualizaci&oacute;n de datos</h1>
+            </div>
+            <figure class="logo">
+                <img src="imagenes/fisi.png" height="100"/>
+            </figure>
+        </header>
+        <center>
+            <form action="index.jsp" method="post">
+
+                <h1>Administrador</h1>
+
+                <table>
+                    <tr>
+                        <td>Usuario: </td><td><input class="cajatexto" type="text" name="usser" value="" pattern="[A-Za-z0-9]{4,45}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Contraseña: </td><td><input class="cajatexto" type="password" name="pass" value="" pattern="[A-Za-z0-9]{4,45}"/></td> 
+                    </tr>
+                    <td colspan="2"><input type="submit" value="Ingresar" name="button" class="boton1"/></td> 
+
+                </table>
+
+            </form>
+        </center>
+</body>
+
+</html>
