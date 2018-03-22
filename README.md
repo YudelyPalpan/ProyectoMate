@@ -11,5 +11,5 @@ Proyecto del Curso Matemática Discreta
   * Vicente Mori
   * Jeampier Ñique
   
-Curso: Matemática Discreta, Semestre 2016-II
-Profesor: Santiago Moquillaza
+### Curso: Matemática Discreta, Semestre 2016-II
+### Profesor: Santiago Moquillaza
